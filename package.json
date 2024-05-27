@@ -1,0 +1,58 @@
+{
+  "name": "react-click-away",
+  "version": "1.0.0",
+  "description": "react-click-away is a lightweight React hook designed to detect clicks or keydown events outside of a specified DOM element. This hook is particularly useful for implementing functionality such as closing modal dialogs, dropdown menus, or any other UI elements when users interact outside of them. Built with TypeScript, react-click-away offers flexibility and seamless integration into any React application.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "npm run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samishan11/react-click-away.git"
+  },
+  "keywords": [
+    "React",
+    "React Hooks",
+    "TypeScript",
+    "Frontend",
+    "UI",
+    "DOM Events",
+    "Event Handling",
+    "Click Away",
+    "Click Outside",
+    "Custom Hook",
+    "Component",
+    "Web Development",
+    "JavaScript",
+    "Library",
+    "NPM Package",
+    "Git",
+    "Version Control",
+    "Open Source"
+  ],
+  "author": "rontend\",",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samishan11/react-click-away/issues"
+  },
+  "homepage": "https://github.com/Samishan11/react-click-away#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "save-dev": "^0.0.1-security",
+    "tslib": "^2.6.2",
+    "typescript": "^4.9.5"
+  }
+}
