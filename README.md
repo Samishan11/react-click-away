@@ -25,6 +25,8 @@ const App = () => {
   const ref = useRef < HTMLDivElement > null;
   const [open, setOpen] = useState < boolean > false;
 
+  //
+
   useClickAway(ref, ["click", "keydown"], () => {
     if (open) {
       handelSideBar();
